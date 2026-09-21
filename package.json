@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://erickatres.github.io/ericka-portfolio",
+  "homepage": "https://www.erickabrudo.me",
   "scripts": {
     "dev": "vite",
     "prebuild": "node -e \"try { const fs = require('fs'); const path = require('path'); const viteBin = path.join('node_modules', '.bin', 'vite'); fs.chmodSync(viteBin, 0o755); } catch (e) {}\"",
