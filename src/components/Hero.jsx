@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Instagram, Download } from 'lucide-react'
+import { Github, Linkedin, MessageCircle, MessageSquare, Download } from 'lucide-react'
 import profileImage from '../assets/profile.jpg'
 
 export default function Hero() {
@@ -73,20 +73,22 @@ export default function Hero() {
                 <Github size={24} />
               </a>
               <a
-                href="https://x.com/kxksszz?s=11"
+                href="https://discord.com/users/kekzsz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-primary-800 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 text-white"
+                aria-label="Discord"
               >
-                <Twitter size={24} />
+                <MessageCircle size={24} />
               </a>
               <a
-                href="https://www.instagram.com/kekzsz?stkn=NnZnY3ExNjA5djl1&utm_source=qr"
+                href="https://wa.me/639519878479"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-primary-800 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 text-white"
+                aria-label="WhatsApp"
               >
-                <Instagram size={24} />
+                <MessageSquare size={24} />
               </a>
             </div>
 
