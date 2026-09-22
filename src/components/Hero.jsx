@@ -1,4 +1,4 @@
-import { Github, Linkedin, MessageCircle, MessageSquare, Download } from 'lucide-react'
+import { Github, Linkedin, MessageCircle, Download } from 'lucide-react'
 import profileImage from '../assets/profile.jpg'
 
 export default function Hero() {
@@ -57,7 +57,7 @@ export default function Hero() {
 
             <div className="flex justify-center md:justify-start space-x-6 mb-12">
               <a
-                href="www.linkedin.com/in/ericka-tresenio-brudo-1a72302a3"
+                href="https://www.linkedin.com/in/ericka-tresenio-brudo-1a72302a3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-primary-800 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 text-white"
@@ -80,15 +80,6 @@ export default function Hero() {
                 aria-label="Discord"
               >
                 <MessageCircle size={24} />
-              </a>
-              <a
-                href="https://wa.me/qr/HTEQBLTYEOJQE1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-3 bg-primary-800 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 text-white"
-                aria-label="WhatsApp"
-              >
-                <MessageSquare size={24} />
               </a>
             </div>
 
